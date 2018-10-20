@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+hr {
+  max-width: 100px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+header.startup {
+  background-image: url(header.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+header.startup hr {
+  margin-top: 280px;
+  margin-bottom: 30px;
+  border-color: #00b3b4;
+}
+
+.center {
+  text-align: center;
+}
+
+header.startup h1 {
+  font-size: 3rem;
+}
+
+header.startup p {
+  font-size: 2rem;
+}
+
+
+/* =========================
+   ANIMATED BUTTONS
+   ========================= */
+
+   .animation-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1.4rem;
+    background-color: #00b3b4;
+
+    background-image: url(pattern.png);
+    background-size: 30px 30px;
+    border: 1px solid #555;
+    border-radius: 30px;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .animation-btn:hover {
+    -webkit-animation: loading-button-animation 2s linear infinite;
+            animation: loading-button-animation 2s linear infinite;
+  }
+
+  @-webkit-keyframes loading-button-animation {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 40px 0;
+    }
+  }
+
+  @keyframes loading-button-animation {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 40px 0;
+    }
+  }
+
