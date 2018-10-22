@@ -17,15 +17,15 @@ hr {
 }
 
 header.startup {
-  background-image: url(header.jpg);
+  background-image: url(michal.jpg);
   height: 100%;
   background-size: cover;
   background-position: center;
 }
 
 header.startup hr {
-  margin-top: 280px;
-  margin-bottom: 30px;
+  margin-top: 430px;
+  margin-bottom: 80px;
   border-color: #00b3b4;
 }
 
